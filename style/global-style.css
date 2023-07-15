@@ -1,0 +1,18 @@
+/* * This css can be uesd in every page */
+/* * global Button style's */
+button{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 80px;
+    padding-left: 80px;
+    background-color: greenyellow;
+    font-size: 1.2em;
+}
+
+/* * global Text style's */
+@import url('https://fonts.cdnfonts.com/css/cartoon-free');
+
+/* * global size unit's */
+
+
+/* * global Navbar style's */

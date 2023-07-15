@@ -1,0 +1,65 @@
+/* * This css can only be uesd in index.html */
+@import url('https://fonts.cdnfonts.com/css/comics');
+
+h1 {
+    font-family: 'Comics';
+    color: rgb(153, 255, 0);
+    font-size: 9vw;
+    
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+}
+
+@media screen and (min-width:850px) {
+    /* Todo: Some code here */
+    h1 {
+        font-family: 'Comics';
+        color: rgb(153, 255, 0);
+        font-size: 8.4vw;
+       
+    
+        -webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-color: black;
+    }
+    button{
+        width: 90%;
+    }
+}
+
+.icon-Q {
+    -webkit-text-stroke-width: 3.5px;
+    color: rgb(174, 255, 0);
+    text-shadow: 3px 3px 3px black;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+
+
+header {
+    background-color: lightgrey;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.call-to-action{
+    display: flex;
+    justify-content: center;
+    padding: 12%;
+}
+button{
+    width: 80%;
+    padding-top: 2%;
+    padding-bottom:  2%;
+    font: 9vw 'Comics';
+    border-radius: 15%;
+    background-color: rgb(0, 255, 0);
+    border: 12px solid black;
+}
+a{
+    text-decoration: none;
+    color: #000;
+
+}
